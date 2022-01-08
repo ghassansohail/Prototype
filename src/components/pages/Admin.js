@@ -7,7 +7,6 @@ return (
     
     <h2 className="hi" >Salam from Admin</h2>
 
-
     </>
 )
 }

@@ -2,6 +2,7 @@ import React from "react"
 import {Card, Button, Container, Row, Col} from 'react-bootstrap'
 import hunza from './Hunza.jpeg'
 import './Cards.css'
+import {Link} from 'react-router-dom'
 
 
 function Cards(){    
@@ -20,7 +21,7 @@ return (
     <Card.Text>
       Lorem Ipsum  
     </Card.Text>
-    <Button variant="primary">Let's Go </Button>
+    <Link to="/login"><Button variant="primary">Let's Go </Button></Link>
   </Card.Body>
 </Card></Col>
 
@@ -33,7 +34,7 @@ return (
     <Card.Text>
       Lorem Ipsum  
     </Card.Text>
-    <Button variant="primary">Let's Go </Button>
+    <Link to="/login"><Button variant="primary">Let's Go </Button></Link>
   </Card.Body>
 </Card>
     
@@ -54,7 +55,7 @@ return (
     <Card.Text>
       Lorem Ipsum  
     </Card.Text>
-    <Button variant="primary">Let's Go </Button>
+    <Link to="/login"><Button variant="primary">Let's Go </Button></Link>
   </Card.Body>
 </Card></Col>
 
@@ -67,7 +68,7 @@ return (
     <Card.Text>
       Lorem Ipsum  
     </Card.Text>
-    <Button variant="primary">Let's Go </Button>
+    <Link to="/login"><Button variant="primary">Let's Go </Button></Link>
   </Card.Body>
 </Card>
     
@@ -81,7 +82,7 @@ return (
     <Card.Text>
       Lorem Ipsum  
     </Card.Text>
-    <Button variant="primary">Let's Go </Button>
+    <Link to="/login"><Button variant="primary">Let's Go </Button></Link>
   </Card.Body>
 </Card></Col>
   </Row>

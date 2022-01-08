@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import './Login.css'
 import BsNav from "../Bs-Nav";
+import {Link} from 'react-router-dom'
+
 function Login() {
     return (
     
@@ -33,9 +35,11 @@ function Login() {
     <Form.Control type="password" placeholder="Password" />
   </Form.Group>
   
+  <Link to="/adminHome">
   <Button variant="primary" type="submit">
     Submit
   </Button>
+  </Link>
 </Form>
 </div>
 </div>
